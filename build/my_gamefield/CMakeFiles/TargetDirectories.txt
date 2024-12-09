@@ -1,0 +1,9 @@
+/home/sandy/Downloads/gamefield/build/my_gamefield/CMakeFiles/uninstall.dir
+/home/sandy/Downloads/gamefield/build/my_gamefield/CMakeFiles/my_gamefield_uninstall.dir
+/home/sandy/Downloads/gamefield/build/my_gamefield/CMakeFiles/test.dir
+/home/sandy/Downloads/gamefield/build/my_gamefield/CMakeFiles/edit_cache.dir
+/home/sandy/Downloads/gamefield/build/my_gamefield/CMakeFiles/rebuild_cache.dir
+/home/sandy/Downloads/gamefield/build/my_gamefield/CMakeFiles/list_install_components.dir
+/home/sandy/Downloads/gamefield/build/my_gamefield/CMakeFiles/install.dir
+/home/sandy/Downloads/gamefield/build/my_gamefield/CMakeFiles/install/local.dir
+/home/sandy/Downloads/gamefield/build/my_gamefield/CMakeFiles/install/strip.dir
