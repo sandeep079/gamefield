@@ -6,7 +6,7 @@
 
 <xacro:if value="${team == 'red'}">
 <joint name = "map_joint" type = "fixed">
-<parent link = "field_base_link"/>
+<parent link = "field_base"/>
 <child link = "map"/>
 <origin xyz = "-8.5780 0 0" rpy = "0 0 -1.57075"/>
 </joint>
@@ -14,7 +14,7 @@
 
 <xacro:if value="${team == 'blue'}">
 <joint name = "map_joint" type = "fixed">
-<parent link = "field_base_link"/>
+<parent link = "field_base"/>
 <child link = "map"/>
 <origin xyz = "0 0 0" rpy = "0 0 -1.57075"/>
 </joint>
@@ -25,38 +25,4 @@
 <origin xyz = "0 0 0"/>
 </visual>
 </link>
-
-<!--
-<joint name = "chasis_joint" type = "fixed">
-<parent link = "base_link"/>
-<child link = "chasis_link"/>
-<origin xyz = "0 0 0"/>
-</joint>
-
-<link name = "chasis_link">
-<visual>
-<origin xyz = "0 0 0.135"/>
-<geometry>
-<box size = "0.25 0.25 0.25"/>
-</geometry>
-<material name = "pink"/>
-</visual>
-</link>
-
-<joint name = "camera_joint" type = "fixed">
-<parent link = "chasis_link"/>
-<child link = "camera_link"/>
-<origin xyz = "0 0 0"/>
-</joint>
-
-<link name = "camera_link">
-<visual>
-<material name = "grey"/>
-<origin xyz = "-0.125 0 0.30"/>
-<geometry>
-<box size = "0.10 0.1 0.10"/>
-</geometry>
-</visual>
-</link>
--->
 </robot>
